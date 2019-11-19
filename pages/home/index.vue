@@ -3,7 +3,7 @@
     <div>
       <h1 class="title">
         我是页面内容
-        <!-- {{subTitle}} -->
+        {{subTitle}}
       </h1>
     </div>
   </div>
