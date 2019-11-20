@@ -23,11 +23,14 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    'swiper/dist/css/swiper.css'
   ],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: ['~/plugins/vue-notifications'],
+  plugins: [
+    { src: '~/plugins/swiper.js', ssr: false }
+  ],
   /*
   ** Nuxt.js dev-modules
   */
